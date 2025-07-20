@@ -1,0 +1,16 @@
+{
+  "name": "Anime Oscure - Editor Agent",
+  "description": "Gestisce il flusso editoriale: dalla struttura dello script, alle copertine, ai titoli virali.",
+  "tags": ["true crime", "YouTube", "editoriale", "automazione", "gpt", "anime oscure"],
+  "entry_point": "editor.js",
+  "commands": {
+    "generate_structure": {
+      "description": "Genera la struttura di uno script true crime da un'idea o titolo.",
+      "args": ["titolo", "tipo_video (episodio | top10 | saga)", "note_extra"]
+    },
+    "generate_assets": {
+      "description": "Crea titoli virali, descrizione SEO, 3 copertine, hashtag e CTA.",
+      "args": ["titolo", "script", "tipologia"]
+    }
+  }
+}
